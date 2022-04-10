@@ -244,6 +244,7 @@ label .error-msg {
 
 .signup-now a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 
@@ -315,9 +316,9 @@ picture {
 }
 
 
-/*RESPONSIVIDADE--------------------------------*/
+/*RESPONSIVIDADE MOBILE--------------------------------*/
 
-@media (min-width:320px) and (max-width: 420px) {
+@media (min-width:320px) and (max-width: 485px) {
 
   /*GENERAL*/
   .total-area {
@@ -357,7 +358,7 @@ picture {
 
   #description {
     font-size: 12px;
-    text-align: center;
+    text-align: justify;
     line-height: 14px;
     position: relative;
     top: -30px;
