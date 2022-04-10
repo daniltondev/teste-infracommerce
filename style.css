@@ -318,7 +318,7 @@ picture {
 
 /*RESPONSIVIDADE MOBILE--------------------------------*/
 
-@media (min-width:320px) and (max-width: 485px) {
+@media (min-width: 0px) and (max-width: 485px) {
 
   /*GENERAL*/
   .total-area {
