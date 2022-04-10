@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--METAS-->
+  <meta charset="UTF-8">
+  <!--CSS & SCRIPTS-->
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!--TITLE-->
+  <title>Teste Infracommerce</title>
+</head>
+<body>
+
+    <picture>
+      <source 
+        srcset="assets/img/login-banner-principal-320-2x.png" 
+        media="(max-width: 425px)" 
+        width="100%" 
+        height="auto"
+      >
+      <source 
+        srcset="assets/img/login-banner-principal-768.png" 
+        media="(max-width: 768px)" 
+        width="100%" 
+        height="auto"
+      >
+      <img id="banner" src="assets/img/login-banner-principal-1366.png" alt="">
+    </picture>
+
+    <main>   
+        <div class="main-container">
+          <div class="total-area">
+            <section class="text-area">
+              <div class="text-area-content">
+                <img class="logo-care-shop"src="assets/img/care-shop.svg" alt="">
+                <h1 id="title">CARE SHOP</h1>
+                <p id="description">Olá! Poderão efetivar compras neste site somente pessoas previamente autorizadas, que possuam login e senha para acesso. Lembrando que logins e senhas são pessoais e não podem em hipótese alguma serem transferidos a terceiros.</p>
+              </div>
+            </section>
+            <section class="login-area">
+              <div class="login-area-content">               
+                  <form id="form">
+                    <div class="login-form-area">
+                      <div class="login-form-description">
+                        <h2 class="form-title">JÁ POSSUI UMA CONTA?</h2>
+                        <p class="form-subtitle">Se você já possui uma conta, informe os dados de acesso.</p>
+                      </div>
+                      <div class="login-form-input-group">
+                        <fieldset>
+                          <div class="form-input-fieldset">
+                            <label for="email" class="form-control active">
+                              <p>E-mail</p>
+                              <input 
+                                id="email" 
+                                type="email" 
+                                name="email" 
+                                placeholder="Digite seu email" 
+                              />
+                              <div class="error-msg" id="email-msg">digite um e-mail válido</div>
+                            </label>
+                            <label for="password" class="form-control">
+                              <div class="form-span">
+                                <p>Senha</p>
+                                <small><a href="">Esqueceu a senha?</a></small>
+                              </div>
+                              
+                              <input 
+                                id="password"  
+                                type="password"  
+                                name="password"  
+                                placeholder="Digite sua senha" 
+                              />
+                              <div class="error-msg" id="password-msg">Campo Obrigatório</div>
+                            </label>
+                          </div>
+                        </fieldset>
+                        
+                      </div>
+                      <p class="signup-now">Não tem conta? <a>Cadastre-se agora!</a></p>
+                      <div class="login-form-buttons">
+                        <button class="submit-button" type="submit">Entrar</button>
+                        <button class="signup-button">Primeiro Acesso?</button>
+                      </div>
+                    </div>
+                  </form>
+                
+              </div>
+            </section>
+          </div>
+        </div>    
+    </main>
+
+  
+</body>
+</html>
