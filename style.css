@@ -317,7 +317,7 @@ picture {
 
 /*RESPONSIVIDADE--------------------------------*/
 
-@media screen and (min-width:320px) {
+@media (min-width:320px) and (max-width: 420px) {
 
   /*GENERAL*/
   .total-area {
@@ -347,17 +347,12 @@ picture {
   }
 
   .logo-care-shop {
-    visibility: hidden;
-    margin: 0;
-    width: 0;
-    height: 0;
+    display: none;
+
   }
 
   #title {
-    visibility: hidden;
-    margin: 0;
-    width: 0;
-    height: 0;
+    display: none;
   }
 
   #description {
