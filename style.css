@@ -316,9 +316,12 @@ picture {
 }
 
 
-/*RESPONSIVIDADE MOBILE--------------------------------*/
+/*RESPONSIVIDADE MOBILE --------------------------------*/
 
-@media (min-width: 292px) and (max-width: 485px) {
+/*Screen 292 - 425--------------------------------*/
+
+
+@media (min-width: 292px) and (max-width: 425px) {
 
   /*GENERAL*/
   .total-area {
@@ -364,4 +367,163 @@ picture {
     top: -30px;
     padding-left: 15px;
   }
+}
+
+/*Screen 426 - 620--------------------------------*/
+
+@media (min-width: 426px) and (max-width: 620px) {
+
+  /*GENERAL*/
+  .total-area {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 80px;
+  }
+
+  /*LOGIN*/
+  .login-area-content {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .login-form-description .form-title {
+    font-size: 1rem;
+  }
+
+  .login-form-description p {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+
+  /*TEXT*/
+  .text-area-content {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /*IMGS*/
+  .logo-care-shop {
+    width: 186px;
+    height: 186px;
+    margin-top: 50px;
+  }
+}
+
+/*Screen 621 - 768--------------------------------*/
+
+@media (min-width: 621px) and (max-width: 768px) {
+
+  /*GENERAL*/
+  .total-area {
+    width: 90%;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    max-width: 600px;
+  }
+
+  /*LOGIN*/
+  .login-area-content {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    min-width: 220px;
+  }
+
+  .login-form-area {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-form-description .form-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .login-form-description p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .form-control:first-child p {
+    margin-top: 25px;
+  }
+
+  /*TEXT*/
+  .text-area-content {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /*IMGS*/
+  .logo-care-shop {
+    width: 186px;
+    height: 186px;
+    margin-top: 50px;
+  }
+}
+
+/*Screen 769 - 1100--------------------------------*/
+
+@media (min-width: 769px) and (max-width: 1100px) {
+
+  /*GENERAL*/
+  .total-area {
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 720px;
+  }
+
+  /*LOGIN*/
+  .login-area-content {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    min-width: 351px;
+  }
+
+  .login-form-area {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-form-description .form-title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .login-form-description p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .form-control:first-child p {
+    margin-top: 25px;
+  }
+
+  /*TEXT*/
+  .text-area-content {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 0;
+    margin: 0 auto;
+  }
+
 }
